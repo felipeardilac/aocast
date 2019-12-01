@@ -14,7 +14,7 @@ numpy, pandas, matplotlib, sklearn, DEAP
 >pip install --upgrade sklearn
 >pip install --upgrade DEAP
 ```
-and adaptcast
+and aocast
 ```
 >pip install --upgrade aocast
 
