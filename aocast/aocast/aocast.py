@@ -462,7 +462,7 @@ class AdaptativeOperator:
         # SET OPTIMIZATION PARAMETERS
         # =============================================================================
        #A triky way to pass bay the optimazer
-        self.gene_length=inputData.shape[1]+1 #All variables and window        
+        self.gene_length=inputData.shape[1]+1+1 #All variables and window        
         self.windowRange=np.round(np.linspace(minWindow, maxWindow, num=1+maxLag)).astype(int)
         self.targetData=targetData
         self.inputData=inputData       
